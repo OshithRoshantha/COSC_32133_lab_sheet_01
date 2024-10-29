@@ -13,12 +13,12 @@
 </head>
 <body>
     <div class="main-buttons-row">
-        <div class="main-buttons">Home</div>
-        <div class="main-buttons">About</div>
-        <div class="main-buttons">Skills</div>
+        <div onclick="window.location.href='#Home'" class="main-buttons">Home</div>
+        <div onclick="window.location.href='#About'" class="main-buttons">About</div>
+        <div onclick="window.location.href='#Skills'" class="main-buttons">Skills</div>
         <div class="main-buttons">Projects</div>
     </div>
-    <div class="index-container">
+    <div class="index-container" id="Home">
 
         <img src="./Assets/pattern.png" alt="Background" class="pattern-image">
         
@@ -56,7 +56,7 @@
     </div>
     
 
-    <div class="about-container" id="about">
+    <div class="about-container" id="About">
         <img src="./Assets/pattern2.png" alt="Background" class="pattern-image pattern-image2">
         <div class="title-bar">
             <b>PORTFOLIO.</b>
@@ -83,7 +83,7 @@
     </div>
     
 
-    <div class="skills-inner about-inner">
+    <div class="skills-inner about-inner" id="Skills">
         <p class="title-extends"><b>PORTFOLIO.</b></p>
         <img src="./Assets/pattern2.png" alt="Background" class="pattern-image3">
         <img src="./Assets/pattern2.png" alt="Background" class="pattern-image4">
