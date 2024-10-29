@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100vw;
+.index-container{
     height: 100vh;
     display: flex;
 }
@@ -19,6 +18,7 @@ body{
 }
 .title-bar{
     margin-top: 3%;
+    z-index: 999;
     color: white;
     font-size: 150%;
     column-gap: 55%;
@@ -93,7 +93,7 @@ i:hover{
     margin-top: 3%;
     border: 3px solid #2ad87f;
     width: 40%;
-    height: 12%;
+    height: 80%;
     display: flex;
 }
 .btn-left{
@@ -133,4 +133,9 @@ i:hover{
 }
 a{
     color: #1d242c;
+}
+.about-container{
+    height: 100vh;
+    display: flex;
+    background-color: #1d242c;
 }
