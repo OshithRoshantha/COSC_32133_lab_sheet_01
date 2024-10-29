@@ -201,3 +201,27 @@ a{
     height: 60%;
     margin-right: 55%;
 }
+.line2{
+    border: 3px solid #1d242c;
+    width: 80%;
+    margin-left: -20%;
+}
+.skills-text{
+    color: #1d242c;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+.skills-inner{
+    height: 100vh;
+    background-color: #2ad87f;
+    margin-top: 0;
+    justify-content: start;
+}
+.skills-list{
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 40%;
+}
+.titlt-bar2{
+    margin-top: -35%;
+}
