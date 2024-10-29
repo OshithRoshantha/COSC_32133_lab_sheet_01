@@ -216,6 +216,7 @@ a{
     background-color: #2ad87f;
     margin-top: 0;
     justify-content: start;
+    position: relative;
 }
 .skills-list{
     margin-top: 10%;
@@ -224,4 +225,35 @@ a{
 }
 .titlt-bar2{
     margin-top: -35%;
+}
+.skills-img{
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    margin-left: 55%;
+}
+.skills-right{
+    background-color: #1d242c;
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    right: 0;
+}
+.pattern-image3{
+    position: absolute;
+    height: 20%;
+    opacity: 0.1;
+    top: 0;
+    margin-top: 2%;
+    right: 0;
+    z-index: 99999;
+}
+.pattern-image4{
+    position: absolute;
+    height: 20%;
+    opacity: 0.1;
+    top: 0;
+    margin-top: 11.5%;
+    right: 0;
+    z-index: 99999;
 }
