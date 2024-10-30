@@ -50,9 +50,10 @@
     display: flex;
 }
 .project-previews{
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 100%;
     width: 33.33%;
@@ -61,13 +62,14 @@
     padding: 0 2%;
 }
 .project-name{
+    margin-top: 10%;
     font-size: 150%;
 }
 .project-desc{
     text-align: center;
     margin-top: 5%;
     color: #2ad87f;
-    font-size: 110%;
+    font-size: 100%;
 }
 .tech-stack{
     margin-top: 4%;
@@ -80,4 +82,7 @@
 }
 .logo1{
     height: 140%;
+}
+.project-ss{
+    height: 35%;
 }
