@@ -101,7 +101,7 @@
 .achive-inner{
     margin-top: 10%;
     width: 80%;
-    height: 80%;
+    height: 70%;
 }
 .board{
     height: 80%;
@@ -111,7 +111,26 @@
     align-items: center;
 }
 .achivement{
-    height: 70%;
-    width: 40%;
-    background-color: #2ad87f;
+    margin-top: 5%;
+    height: 60%;
+    width: 35%;
+    color: #2ad87f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    font-family: "Poppins", sans-serif;
+    outline: 2px solid#2ad87f;
+}
+.achivement-image{
+    width: 100%;
+    height: 30%;
+    margin-left: -3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    height: 100%;
 }
