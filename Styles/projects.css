@@ -56,4 +56,16 @@
     align-items: center;
     height: 100%;
     width: 33.33%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 0 2%;
+}
+.project-name{
+    font-size: 150%;
+}
+.project-desc{
+    text-align: center;
+    margin-top: 5%;
+    color: #2ad87f;
+    font-size: 110%;
 }
