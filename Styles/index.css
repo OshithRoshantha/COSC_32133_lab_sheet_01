@@ -2,23 +2,24 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100vw;
+html {
+    scroll-behavior: smooth;
+}
+.index-container{
     height: 100vh;
     display: flex;
 }
 .main-left{
-    height: 100%;
     width: 75%;
     background-color: #1d242c;
 }
 .main-right{
-    height: 100%;
     width: 25%;
     background-color: #2ad87f;
 }
 .title-bar{
     margin-top: 3%;
+    z-index: 999;
     color: white;
     font-size: 150%;
     column-gap: 55%;
@@ -93,7 +94,7 @@ i:hover{
     margin-top: 3%;
     border: 3px solid #2ad87f;
     width: 40%;
-    height: 12%;
+    height: 80%;
     display: flex;
 }
 .btn-left{
@@ -133,4 +134,165 @@ i:hover{
 }
 a{
     color: #1d242c;
+    text-decoration: none;
+}
+.about-container{
+    height: 100vh;
+    display: flex;
+    background-color: #1d242c;
+}
+.about-inner{
+    width: 100%;
+    margin-top: 9%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 40%;
+}
+.about-text{
+    font-family: "Roboto Condensed", sans-serif;
+    color: white;
+    font-size: 350%;
+    width: 40%;
+    margin-top: -7%
+}
+.about-title{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    column-gap: 9%;
+}
+.line{
+    border: 3px solid #2ad87f;
+    width: 50%;
+}
+.text-about{
+    margin-top: 10%;
+    font-size: 30%;
+}
+.about-btn{
+    cursor: pointer;
+    margin-top: 10%;
+    background-color: #2ad87f;
+    color: #1d242c;
+    font-size: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    width: 20%;
+}
+.about-btn:hover{
+    background-color: #1c9757;
+    color: white;
+}
+.img-border{
+    position: absolute;
+    margin-right: 60%;
+    background-color: #2ad87f;
+    height: 62%;
+    width: 27%;
+    margin-top: -4%;
+}
+.pattern-image2{
+    margin-left: 82%;
+    margin-bottom: -45.5%;
+}
+.personal-img{
+    position: absolute;
+    z-index: 99;
+    height: 60%;
+    margin-right: 55%;
+}
+.line2{
+    border: 3px solid #1d242c;
+    width: 80%;
+    margin-left: -20%;
+}
+.skills-text{
+    color: #1d242c;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+.skills-inner{
+    height: 100vh;
+    background-color: #2ad87f;
+    margin-top: 0;
+    justify-content: start;
+    position: relative;
+}
+.skills-list{
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 40%;
+}
+.titlt-bar2{
+    margin-top: -35%;
+}
+.skills-img{
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    margin-left: 55%;
+}
+.skills-right{
+    background-color: #1d242c;
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    right: 0;
+}
+.pattern-image3{
+    position: absolute;
+    height: 20%;
+    opacity: 0.1;
+    top: 0;
+    margin-top: 2%;
+    right: 0;
+    z-index: 99999;
+}
+.pattern-image4{
+    position: absolute;
+    height: 20%;
+    opacity: 0.1;
+    top: 0;
+    margin-top: 11.5%;
+    right: 0;
+    z-index: 99999;
+}
+.social-container2{
+    margin-left: -130%;
+    margin-top: 70%;
+}
+.title-extends{
+    color: white;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-size: 150%;
+    margin-top: -35%;
+    margin-left: 3.8%;
+}
+.main-buttons-row{
+    margin-top: 3%;
+    width: 100%;
+    height: 9%;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5%;
+}
+.main-buttons{
+    background-color: #2ad87f;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0.5% 1.5%;
+    border-radius: 15px;
+    font-size: 120%;
+    cursor: pointer;
+    outline: 2px solid #1d242c;
+}
+.main-buttons:hover{
+    background-color: #1c9757;
+    color: white;
 }
